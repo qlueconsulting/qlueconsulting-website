@@ -1,0 +1,21 @@
+# Production Docker Compose for Deployment Server
+# Usage:
+# 1. Update the IMAGE_NAME or pass it via .env
+# 2. Run: docker compose -f docker-compose.server.yml up -d
+
+services:
+  qlue-website:
+    # Change <username/repo> to match your GitHub repository path in lowercase
+    # Example: ghcr.io/john-doe/qlueconsulting_website:latest
+    image: ${DOCKER_IMAGE:-ghcr.io/your-github-username/qlueconsulting_website:latest}
+    container_name: qlue-consulting-web
+    restart: unless-stopped
+    ports:
+      # Map host port (default 8080) to container port 80
+      # Change PORT in .env or set here (e.g. "80:80")
+      - "${PORT:-8080}:80"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5m"
+        max-file: "2"

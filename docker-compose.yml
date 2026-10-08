@@ -1,0 +1,20 @@
+services:
+  qlue-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ${DOCKER_IMAGE:-qlue-website:latest}
+    container_name: qlue-consulting-web
+    restart: unless-stopped
+    ports:
+      # Map host port 8080 to container port 80.
+      # Change PORT=80 in .env if you prefer standard HTTP.
+      - "${PORT:-8080}:80"
+    volumes:
+      # Mount the local html folder so edits take effect immediately during development
+      - ./html:/usr/share/nginx/html:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5m"
+        max-file: "2"

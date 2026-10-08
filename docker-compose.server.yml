@@ -5,9 +5,8 @@
 
 services:
   qlue-website:
-    # Change <username/repo> to match your GitHub repository path in lowercase
-    # Example: ghcr.io/john-doe/qlueconsulting_website:latest
-    image: ${DOCKER_IMAGE:-ghcr.io/your-github-username/qlueconsulting_website:latest}
+    # GitHub Container Registry package path
+    image: ${DOCKER_IMAGE:-ghcr.io/qlueconsulting/qlueconsulting-website:latest}
     container_name: qlue-consulting-web
     restart: unless-stopped
     ports:

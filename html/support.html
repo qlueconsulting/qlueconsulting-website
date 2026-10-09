@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="QLUE Consulting Support, Privacy Policy, Terms of Service, and Legal Documentation.">
+  <meta name="description" content="QLUE Consulting Support, ScriptFlip Documentation, Privacy Policies, Terms of Service, and Help Center.">
   <title>Support & Policies | QLUE Consulting</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20%220%20100%20100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <link rel="icon" type="image/png" href="assets/qlue-logo.png">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
   <header class="site-header">
     <div class="container nav-wrapper">
       <a href="index.html" class="brand-logo" aria-label="QLUE Consulting Home">
-        <span class="logo-badge">Q</span>
+        <img src="assets/qlue-logo.png" alt="QLUE Mascot Logo" class="logo-image">
         <span class="brand-text">QLUE <span class="brand-tag">Consulting</span></span>
       </a>
 
@@ -27,7 +27,7 @@
         <li><a href="about.html" class="nav-link">About Us</a></li>
         <li><a href="apps.html" class="nav-link">Apps</a></li>
         <li><a href="support.html" class="nav-link active">Support & Policies</a></li>
-        <li><a href="#support" class="nav-cta">Get Support</a></li>
+        <li><a href="#scriptflip-support" class="nav-cta">ScriptFlip Help</a></li>
       </ul>
     </div>
   </header>
@@ -38,13 +38,13 @@
       <div class="hero-glow"></div>
       <div class="container hero-content">
         <div class="hero-tag">
-          <span>●</span> Help Center & Legal Documents
+          <span>●</span> Help Center & Legal Documentation
         </div>
         <h1 class="hero-title">
           Support, Privacy & <span class="gradient-text">Policies</span>
         </h1>
         <p class="hero-description">
-          Find support for our software, review our data protection standards, and examine our licensing and terms of service.
+          Documentation, help desk resources, and privacy policies for ScriptFlip and QLUE Consulting applications.
         </p>
       </div>
     </section>
@@ -57,192 +57,218 @@
         <aside class="sticky-nav">
           <div class="sticky-nav-title">Page Bookmarks</div>
           <ul class="policy-toc">
-            <li><a href="#support" class="policy-toc-link">1. Support & Help</a></li>
-            <li><a href="#faq" class="policy-toc-link">2. Support FAQs</a></li>
-            <li><a href="#privacy" class="policy-toc-link">3. Privacy Policy</a></li>
-            <li><a href="#terms" class="policy-toc-link">4. Terms of Service</a></li>
-            <li><a href="#cookies" class="policy-toc-link">5. Cookies & Local Data</a></li>
-            <li><a href="#contact" class="policy-toc-link">6. Contact Channels</a></li>
+            <li><a href="#scriptflip-support" class="policy-toc-link">1. ScriptFlip Support</a></li>
+            <li><a href="#scriptflip-privacy" class="policy-toc-link">2. ScriptFlip Privacy</a></li>
+            <li><a href="#general-support" class="policy-toc-link">3. General Support</a></li>
+            <li><a href="#privacy" class="policy-toc-link">4. Company Privacy</a></li>
+            <li><a href="#terms" class="policy-toc-link">5. Terms of Service</a></li>
+            <li><a href="#cookies" class="policy-toc-link">6. Cookies & Storage</a></li>
+            <li><a href="#contact" class="policy-toc-link">7. Contact Channels</a></li>
           </ul>
 
           <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border-color); font-size: 0.8rem; color: var(--text-dim);">
-            Last updated: October 2026<br>
-            Server: Local Docker Instance
+            Direct Support: <a href="mailto:brian@qlueconsulting.com" style="color: var(--primary-light);">brian@qlueconsulting.com</a><br>
+            Server: Local Container
           </div>
         </aside>
 
         <!-- Main Content with Anchor Bookmarks -->
         <div class="policy-article">
           
-          <!-- Bookmark 1: Support Section -->
-          <section id="support" class="policy-block">
+          <!-- Bookmark 1: ScriptFlip Support Section (from gist) -->
+          <section id="scriptflip-support" class="policy-block">
+            <!-- Anchor alias for generic #support -->
+            <span id="support" style="position: relative; top: -90px;"></span>
+
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+              <span class="card-badge badge-live">iOS Application</span>
+              <span style="font-size: 0.85rem; color: var(--text-dim);">Official Documentation</span>
+            </div>
             <h2 class="policy-block-title">
-              <span>Customer & Technical Support</span>
-              <a href="#support" class="anchor-link" aria-label="Link to Support">#</a>
+              <span>ScriptFlip Support &amp; Help Center</span>
+              <a href="#scriptflip-support" class="anchor-link" aria-label="Link to ScriptFlip Support">#</a>
+            </h2>
+            <p style="font-size: 1.05rem; color: var(--text-main);">
+              Need help with ScriptFlip? We are here to assist you.
+            </p>
+
+            <h3 style="font-size: 1.25rem; color: var(--text-main); margin: 1.75rem 0 0.75rem;">
+              Frequently Asked Questions
+            </h3>
+
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+              <div style="background: var(--bg-surface-elevated); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem; color: var(--accent);">How do I restore my purchase?</h4>
+                <p style="margin: 0; font-size: 0.95rem; color: var(--text-muted);">
+                  Open the Settings or Paywall screen inside ScriptFlip and tap <strong>Restore Purchases</strong>.
+                </p>
+              </div>
+
+              <div style="background: var(--bg-surface-elevated); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem; color: var(--accent);">How do I cancel my subscription?</h4>
+                <p style="margin: 0; font-size: 0.95rem; color: var(--text-muted);">
+                  Subscriptions are managed by Apple. Open your iPhone <strong>Settings &gt; Apple ID &gt; Subscriptions &gt; ScriptFlip</strong> to modify or cancel.
+                </p>
+              </div>
+            </div>
+
+            <div style="background: rgba(99, 102, 241, 0.08); border: 1px solid rgba(99, 102, 241, 0.25); border-radius: var(--radius-md); padding: 1.5rem; margin-top: 1.5rem;">
+              <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.5rem;">Contact Support</h3>
+              <p style="margin-bottom: 0.75rem; color: var(--text-muted);">
+                For bug reports, account issues, or feature requests, email our support team directly:
+              </p>
+              <div style="font-size: 1.05rem;">
+                <strong>Email:</strong> <a href="mailto:brian@qlueconsulting.com" style="color: var(--primary-light); font-weight: 600;">brian@qlueconsulting.com</a>
+              </div>
+            </div>
+          </section>
+
+          <!-- Bookmark 2: ScriptFlip Privacy Policy (from gist) -->
+          <section id="scriptflip-privacy" class="policy-block">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+              <span class="card-badge badge-ai">Privacy &amp; Data Security</span>
+              <span style="font-size: 0.85rem; color: var(--text-dim);">Effective Date: August 2026</span>
+            </div>
+            <h2 class="policy-block-title">
+              <span>Privacy Policy for ScriptFlip</span>
+              <a href="#scriptflip-privacy" class="anchor-link" aria-label="Link to ScriptFlip Privacy Policy">#</a>
             </h2>
             <p>
-              At QLUE Consulting, we provide comprehensive technical assistance for our deployed applications, custom integrations, and self-hosted container environments.
+              ScriptFlip (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) provides AI-powered video script generation and teleprompter services. We are committed to protecting your privacy.
             </p>
+
+            <h3 style="font-size: 1.2rem; color: var(--text-main); margin: 1.5rem 0 0.5rem;">1. Information We Collect</h3>
+            <ul>
+              <li>
+                <strong>User-Provided Text:</strong> Topics, prompts, transcripts, or video summaries you submit to generate scripts. This data is processed in real-time to return scripts and is <strong>not</strong> used to train private AI models.
+              </li>
+              <li>
+                <strong>In-App Purchases:</strong> Subscription purchases are processed directly by Apple App Store via StoreKit and RevenueCat. We do not store or process your credit card numbers.
+              </li>
+              <li>
+                <strong>Diagnostics &amp; Analytics:</strong> Anonymous crash diagnostics and basic app usage telemetry to improve performance.
+              </li>
+            </ul>
+
+            <h3 style="font-size: 1.2rem; color: var(--text-main); margin: 1.5rem 0 0.5rem;">2. Third-Party Services</h3>
             <p>
-              Whether you are troubleshooting a local deployment of <strong>AccoureAI</strong> or configuring pipeline conversions in <strong>ScriptFlip</strong>, our team is committed to resolving issues promptly.
+              We use the following third-party services to deliver app functionality:
+            </p>
+            <ul>
+              <li><strong>Anthropic:</strong> To generate video script copy from user prompts.</li>
+              <li><strong>Supabase:</strong> For secure API routing and database operations.</li>
+              <li><strong>RevenueCat:</strong> To manage in-app subscription entitlements.</li>
+            </ul>
+
+            <h3 style="font-size: 1.2rem; color: var(--text-main); margin: 1.5rem 0 0.5rem;">3. Data Retention &amp; Deletion</h3>
+            <p>
+              Generated script history is stored locally on your device. You can clear your history or delete the app at any time to remove local data.
+            </p>
+
+            <h3 style="font-size: 1.2rem; color: var(--text-main); margin: 1.5rem 0 0.5rem;">4. Contact Us</h3>
+            <p>
+              If you have any questions regarding this Privacy Policy, please contact us at: <a href="mailto:brian@qlueconsulting.com" style="color: var(--primary-light); font-weight: 600;">brian@qlueconsulting.com</a>.
+            </p>
+          </section>
+
+          <!-- Bookmark 3: General Support & Consulting -->
+          <section id="general-support" class="policy-block">
+            <h2 class="policy-block-title">
+              <span>General QLUE Consulting &amp; Software Support</span>
+              <a href="#general-support" class="anchor-link" aria-label="Link to General Support">#</a>
+            </h2>
+            <p>
+              In addition to ScriptFlip, QLUE Consulting provides technical assistance and deployment guidance for our containerized applications, including <strong>AccoureAI</strong> and enterprise solutions.
             </p>
 
             <div class="support-channels">
               <div class="channel-card">
                 <h4>AccoureAI Support</h4>
-                <p>Configuration, model endpoints, container orchestration, and inference optimization assistance.</p>
-                <a href="#contact" class="btn btn-secondary btn-sm" style="width: 100%;">AccoureAI Ticket &rarr;</a>
+                <p>Private model hosting, inference configurations, and container orchestration.</p>
+                <a href="#contact" class="btn btn-secondary btn-sm" style="width: 100%;">AccoureAI Assistance &rarr;</a>
               </div>
               <div class="channel-card">
                 <h4>ScriptFlip Support</h4>
-                <p>Grammar parsers, syntax transform bugs, batch pipeline automation, and CLI tooling questions.</p>
-                <a href="#contact" class="btn btn-secondary btn-sm" style="width: 100%;">ScriptFlip Ticket &rarr;</a>
+                <p>iOS App Store purchases, subscriptions, teleprompter, and generation inquiries.</p>
+                <a href="#scriptflip-support" class="btn btn-secondary btn-sm" style="width: 100%;">View FAQs &rarr;</a>
               </div>
               <div class="channel-card">
-                <h4>Consulting Inquiries</h4>
-                <p>Custom software engineering, private cloud setups, and advisory services.</p>
-                <a href="#contact" class="btn btn-primary btn-sm" style="width: 100%;">Contact Consulting &rarr;</a>
+                <h4>Consulting Engagements</h4>
+                <p>Custom localized AI pipelines, containerization, and developer utilities.</p>
+                <a href="#contact" class="btn btn-primary btn-sm" style="width: 100%;">Inquire with Brian &rarr;</a>
               </div>
             </div>
           </section>
 
-          <!-- Bookmark 2: FAQs -->
-          <section id="faq" class="policy-block">
-            <h2 class="policy-block-title">
-              <span>Frequently Asked Questions</span>
-              <a href="#faq" class="anchor-link" aria-label="Link to FAQ">#</a>
-            </h2>
-
-            <div style="display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1rem;">
-              <div style="background: var(--bg-surface-elevated); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
-                <h4 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--text-main);">How are QLUE applications hosted?</h4>
-                <p style="margin: 0; font-size: 0.92rem; color: var(--text-muted);">
-                  Our software is engineered container-first. You can run our applications (including this very website) locally on Docker, Docker Compose, Kubernetes, or on your preferred cloud instance with minimal compute overhead.
-                </p>
-              </div>
-
-              <div style="background: var(--bg-surface-elevated); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
-                <h4 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--text-main);">Does AccoureAI transmit prompts to external servers?</h4>
-                <p style="margin: 0; font-size: 0.92rem; color: var(--text-muted);">
-                  No. When running AccoureAI in a local container or private server environment, your model prompts, file contexts, and data streams remain strictly inside your network perimeter.
-                </p>
-              </div>
-
-              <div style="background: var(--bg-surface-elevated); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
-                <h4 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--text-main);">How do I update applications?</h4>
-                <p style="margin: 0; font-size: 0.92rem; color: var(--text-muted);">
-                  Application updates are delivered as lightweight container tags. Running a standard <code>docker compose pull && docker compose up -d</code> will update your service without disturbing persistent volumes.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          <!-- Bookmark 3: Privacy Policy -->
+          <!-- Bookmark 4: General Privacy Policy -->
           <section id="privacy" class="policy-block">
             <h2 class="policy-block-title">
-              <span>Privacy Policy</span>
+              <span>QLUE Consulting Privacy Policy</span>
               <a href="#privacy" class="anchor-link" aria-label="Link to Privacy Policy">#</a>
             </h2>
             <p>
-              <strong>Effective Date:</strong> October 7, 2026.
+              <strong>Effective Date:</strong> October 2026.
             </p>
             <p>
-              QLUE Consulting ("we", "us", or "our") respects your privacy. This Privacy Policy describes how we handle information in connection with our website, consulting services, and applications, including AccoureAI and ScriptFlip.
-            </p>
-
-            <h3 style="font-size: 1.2rem; color: var(--text-main); margin: 1.5rem 0 0.5rem;">1. Information Collection & Self-Hosted Software</h3>
-            <p>
-              Our applications are built with a strict <strong>local-first philosophy</strong>. When you run containerized software from QLUE Consulting on your own server or private infrastructure:
+              QLUE Consulting is dedicated to data sovereignty and minimal footprint software. When using our websites and locally hosted software:
             </p>
             <ul>
-              <li>We do <strong>not</strong> collect, inspect, or log your application inputs, script files, or model prompts.</li>
-              <li>We do <strong>not</strong> employ hidden background analytics, telemetry, or third-party behavioral trackers.</li>
-              <li>Data processed by ScriptFlip and AccoureAI remains residing entirely in your storage environment.</li>
+              <li>We never log, inspect, or sell client queries or proprietary prompt streams.</li>
+              <li>Air-gapped and containerized deployments operate solely within your infrastructure boundaries.</li>
+              <li>Information submitted for consulting inquiries is held in strict professional confidence.</li>
             </ul>
-
-            <h3 style="font-size: 1.2rem; color: var(--text-main); margin: 1.5rem 0 0.5rem;">2. Information You Voluntarily Provide</h3>
-            <p>
-              When you contact us for technical support, consulting requests, or licensing keys, we may collect:
-            </p>
-            <ul>
-              <li>Contact details (name, business email, organization name).</li>
-              <li>Information regarding your deployment configuration and error descriptions necessary to resolve support inquiries.</li>
-            </ul>
-
-            <h3 style="font-size: 1.2rem; color: var(--text-main); margin: 1.5rem 0 0.5rem;">3. Data Sharing & Third Parties</h3>
-            <p>
-              We do <strong>not</strong> sell, rent, or monetize your personal or operational information. Information is only utilized to deliver direct support, fulfill contractual consulting obligations, or comply with legal requirements.
-            </p>
           </section>
 
-          <!-- Bookmark 4: Terms of Service -->
+          <!-- Bookmark 5: Terms of Service -->
           <section id="terms" class="policy-block">
             <h2 class="policy-block-title">
               <span>Terms of Service</span>
               <a href="#terms" class="anchor-link" aria-label="Link to Terms of Service">#</a>
             </h2>
             <p>
-              By accessing the QLUE Consulting website, documentation, or using our software applications (including AccoureAI and ScriptFlip), you agree to be bound by the terms outlined below.
-            </p>
-
-            <h3 style="font-size: 1.2rem; color: var(--text-main); margin: 1.5rem 0 0.5rem;">1. Software License & Usage</h3>
-            <p>
-              QLUE Consulting grants you a limited, non-exclusive, revocable license to utilize our software according to your tier of service or self-hosted agreement:
+              By accessing the QLUE Consulting website, documentation, or using our software (including AccoureAI and ScriptFlip), you agree to our standard terms:
             </p>
             <ul>
-              <li>You may deploy containerized builds on your approved hardware and internal server clusters.</li>
-              <li>You agree not to reverse engineer, decompile, or redistribute proprietary container images without explicit written consent.</li>
-              <li>You are responsible for maintaining the security of your host environment, container credentials, and access tokens.</li>
+              <li><strong>Licensing:</strong> Software is licensed according to the applicable tier (iOS App Store license for ScriptFlip; commercial self-hosting agreement for enterprise tools).</li>
+              <li><strong>Acceptable Use:</strong> You agree not to reverse engineer proprietary images or use software for unlawful activities.</li>
+              <li><strong>Warranties:</strong> Software is provided &ldquo;as is&rdquo;. We continuously improve resilience and reliability.</li>
             </ul>
-
-            <h3 style="font-size: 1.2rem; color: var(--text-main); margin: 1.5rem 0 0.5rem;">2. Disclaimer of Warranties</h3>
-            <p>
-              Our software and services are provided on an "as is" and "as available" basis. While we strive for absolute stability, low latency, and bug-free execution, QLUE Consulting makes no express warranties that operations will be uninterrupted or error-free across all third-party hosting hardware.
-            </p>
-
-            <h3 style="font-size: 1.2rem; color: var(--text-main); margin: 1.5rem 0 0.5rem;">3. Limitation of Liability</h3>
-            <p>
-              In no event shall QLUE Consulting be liable for indirect, incidental, or consequential damages resulting from data loss, server misconfigurations, or operational downtime stemming from the usage of local container services.
-            </p>
           </section>
 
-          <!-- Bookmark 5: Cookies & Local Data -->
+          <!-- Bookmark 6: Cookies Policy -->
           <section id="cookies" class="policy-block">
             <h2 class="policy-block-title">
-              <span>Cookies & Local Storage Policy</span>
-              <a href="#cookies" class="anchor-link" aria-label="Link to Cookies Policy">#</a>
+              <span>Cookies &amp; Local Storage</span>
+              <a href="#cookies" class="anchor-link" aria-label="Link to Cookies">#</a>
             </h2>
             <p>
-              Our website is completely lightweight and tracking-free. We do <strong>not</strong> load third-party advertising cookies, cross-site trackers, or marketing pixels.
-            </p>
-            <p>
-              Any local storage utilized is strictly functional (such as remembering UI preferences or theme states) and does not transmit tracking beacons across domains.
+              This website does <strong>not</strong> track you with third-party marketing pixels or advertising cookies. Any local cache is purely functional for high-speed page loads.
             </p>
           </section>
 
-          <!-- Bookmark 6: Contact Channels -->
+          <!-- Bookmark 7: Contact Channels -->
           <section id="contact" class="policy-block">
             <h2 class="policy-block-title">
-              <span>Contact & Support Inquiries</span>
+              <span>Contact Channels</span>
               <a href="#contact" class="anchor-link" aria-label="Link to Contact">#</a>
             </h2>
             <p>
-              Need to reach out regarding support, licensing, or custom consulting projects? Use the direct channels below:
+              Connect directly with our team for support, consultations, or feedback:
             </p>
 
             <div style="background: var(--bg-surface-elevated); padding: 1.75rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin-top: 1rem;">
               <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem;">
                 <div>
-                  <strong style="color: var(--text-main); display: block; margin-bottom: 0.25rem;">General & Consulting</strong>
+                  <strong style="color: var(--text-main); display: block; margin-bottom: 0.25rem;">Direct Support &amp; Consulting</strong>
+                  <a href="mailto:brian@qlueconsulting.com" style="color: var(--primary-light); font-weight: 600;">brian@qlueconsulting.com</a>
+                </div>
+                <div>
+                  <strong style="color: var(--text-main); display: block; margin-bottom: 0.25rem;">General Inquiries</strong>
                   <a href="mailto:info@qlueconsulting.com" style="color: var(--primary-light);">info@qlueconsulting.com</a>
                 </div>
                 <div>
-                  <strong style="color: var(--text-main); display: block; margin-bottom: 0.25rem;">Technical & App Support</strong>
-                  <a href="mailto:support@qlueconsulting.com" style="color: var(--primary-light);">support@qlueconsulting.com</a>
-                </div>
-                <div>
-                  <strong style="color: var(--text-main); display: block; margin-bottom: 0.25rem;">Deployment Inquiries</strong>
-                  <span style="color: var(--text-muted);">AccoureAI / ScriptFlip Support Desk</span>
+                  <strong style="color: var(--text-main); display: block; margin-bottom: 0.25rem;">GitHub Gists &amp; Docs</strong>
+                  <a href="https://gist.github.com/qlueconsulting" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">gist.github.com/qlueconsulting &rarr;</a>
                 </div>
               </div>
             </div>
@@ -259,7 +285,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="index.html" class="brand-logo">
-            <span class="logo-badge">Q</span>
+            <img src="assets/qlue-logo.png" alt="QLUE Logo" class="logo-image">
             <span class="brand-text">QLUE <span class="brand-tag">Consulting</span></span>
           </a>
           <p>
@@ -286,7 +312,7 @@
           <h4>Applications</h4>
           <ul class="footer-links">
             <li><a href="apps.html#accoureai">AccoureAI</a></li>
-            <li><a href="apps.html#scriptflip">ScriptFlip</a></li>
+            <li><a href="apps.html#scriptflip">ScriptFlip (iOS)</a></li>
             <li><a href="apps.html#roadmap">Roadmap & Future Apps</a></li>
           </ul>
         </div>
@@ -294,10 +320,10 @@
         <div class="footer-col">
           <h4>Support & Legal</h4>
           <ul class="footer-links">
-            <li><a href="#support">Help & Support</a></li>
-            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#scriptflip-support">ScriptFlip Support</a></li>
+            <li><a href="#scriptflip-privacy">ScriptFlip Privacy</a></li>
+            <li><a href="#privacy">Company Privacy</a></li>
             <li><a href="#terms">Terms of Service</a></li>
-            <li><a href="#cookies">Cookie & Local Storage</a></li>
           </ul>
         </div>
       </div>

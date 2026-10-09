@@ -151,6 +151,19 @@ img, svg {
   box-shadow: 0 2px 8px rgba(99, 102, 241, 0.35);
 }
 
+.logo-image {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  display: inline-block;
+  filter: drop-shadow(0 2px 8px rgba(99, 102, 241, 0.4));
+  transition: var(--transition);
+}
+
+.brand-logo:hover .logo-image {
+  transform: scale(1.08);
+}
+
 .brand-text {
   font-weight: 800;
 }

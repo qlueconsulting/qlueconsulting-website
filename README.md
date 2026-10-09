@@ -9,12 +9,13 @@ An ultra-lightweight, high-performance static website packaged in an Alpine-base
   - **About Us (`about.html`):** Mission, company philosophy, and three engineering pillars.
   - **Apps (`apps.html`):** Dedicated showcases for **AccoureAI** and **ScriptFlip**, with feature breakdowns, capability cards, licensing tags, and an upcoming roadmap card.
   - **Support & Policies (`support.html`):** Unified help & legal center with deep on-page bookmark links:
-    - `#support` &mdash; Technical support desks for AccoureAI and ScriptFlip
-    - `#faq` &mdash; Frequently asked questions
-    - `#privacy` &mdash; Privacy policy & local-first data isolation commitments
+    - `#scriptflip-support` &mdash; Official ScriptFlip Help Center & FAQs (Restore Purchases, Subscriptions)
+    - `#scriptflip-privacy` &mdash; ScriptFlip Privacy Policy & Third-Party Services (Anthropic, Supabase, RevenueCat)
+    - `#general-support` &mdash; General QLUE Consulting & AccoureAI assistance
+    - `#privacy` &mdash; Company data protection commitments
     - `#terms` &mdash; Terms of service & software licensing
     - `#cookies` &mdash; Cookie & local data storage policy
-    - `#contact` &mdash; Direct email and inquiry channels
+    - `#contact` &mdash; Direct email (`brian@qlueconsulting.com`)
 - **Lightweight & Fast:** Pure modern HTML5 & CSS3 with zero external fonts or tracking scripts. Instant load times.
 - **Docker Native:** Runs on `nginx:alpine` with Gzip compression and optimized caching headers enabled.
 - **Automated CI/CD:** GitHub Actions workflow included to automatically build and publish the Docker container to GitHub Container Registry (`ghcr.io`).

@@ -1,21 +1,26 @@
-# QLUE Consulting - Lightweight Self-Hosted Website
+# QLUE Consulting - Data Technology & Fractional IT Consulting
 
 An ultra-lightweight, high-performance static website packaged in an Alpine-based Docker container (~23MB footprint, <5MB RAM usage).
 
 ## 🚀 Overview
 
+- **Core Practice Areas:**
+  - **1. Data Technology Consulting:** Data pipelines, warehousing, database architecture, and analytics/AI readiness.
+  - **2. Fractional IT Consulting:** Executive technology leadership, IT roadmaps, cloud systems, and vendor oversight.
+  - **3. Proprietary Applications:** In-house software built from real-world consulting needs, including **AccoureAI** and **ScriptFlip**.
+- **Contact:** Brian &bull; Phone: **970-324-7530** &bull; Email: **brian@qlueconsulting.com**
 - **Pages Included:**
-  - **Home (`index.html`):** Company overview, architectural pillars, featured apps preview, and metrics.
-  - **About Us (`about.html`):** Mission, company philosophy, and three engineering pillars.
-  - **Apps (`apps.html`):** Dedicated showcases for **AccoureAI** and **ScriptFlip**, with feature breakdowns, capability cards, licensing tags, and an upcoming roadmap card.
+  - **Home (`index.html`):** Data Technology & Fractional IT services, practice highlights, and application spotlights.
+  - **About & Services (`about.html`):** Deep-dive into data engineering, fractional CIO/IT director guidance, and Brian's practice.
+  - **Apps (`apps.html`):** Dedicated showcases for **AccoureAI** and **ScriptFlip**, with feature breakdowns, capability cards, licensing tags, and custom development requests.
   - **Support & Policies (`support.html`):** Unified help & legal center with deep on-page bookmark links:
+    - `#contact` &mdash; Direct phone (970-324-7530) and email (brian@qlueconsulting.com)
     - `#scriptflip-support` &mdash; Official ScriptFlip Help Center & FAQs (Restore Purchases, Subscriptions)
     - `#scriptflip-privacy` &mdash; ScriptFlip Privacy Policy & Third-Party Services (Anthropic, Supabase, RevenueCat)
     - `#general-support` &mdash; General QLUE Consulting & AccoureAI assistance
     - `#privacy` &mdash; Company data protection commitments
     - `#terms` &mdash; Terms of service & software licensing
     - `#cookies` &mdash; Cookie & local data storage policy
-    - `#contact` &mdash; Direct email (`brian@qlueconsulting.com`)
 - **Lightweight & Fast:** Pure modern HTML5 & CSS3 with zero external fonts or tracking scripts. Instant load times.
 - **Docker Native:** Runs on `nginx:alpine` with Gzip compression and optimized caching headers enabled.
 - **Automated CI/CD:** GitHub Actions workflow included to automatically build and publish the Docker container to GitHub Container Registry (`ghcr.io`).
